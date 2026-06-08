@@ -3,6 +3,8 @@
 <html>
     <head>
         <title>My Portfolio</title>
+	
+	<link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -10,7 +12,7 @@
             <h1>Julie's Portfolio</h1>
         </header>
 
-        <nav>
+        <nav class="container">
             <a href="#about">About Me</a>
             <a href="#projects">My Projects</a>
             <a href="#contact">Contact Me</a>
@@ -28,13 +30,23 @@
             </section>
 
             <section id="projects">
-                <h2>Projects</h2>
 
-                <h3>This Website! :)</h3>
+                <a href="https://github.com/julie-ddeng?tab=repositories">
+			<h2>Projects</h2>
+		</a>
 
-                <h3>RSA Message Console</h3>
+                <a href="https://github.com/julie-ddeng/portfolio">
+			<h3>This Website! :)</h3>
+		</a>
 
-                <h3>Hangman Game</h3>
+                <a href="https://github.com/julie-ddeng/rsa-secure-msg-console">
+			<h3>RSA Message Console</h3>
+		</a>
+
+                <a href="https://github.com/julie-ddeng/Hangman">
+			<h3>Hangman Game</h3>
+		</a>
+	
             </section>
 
             <section id="contact">
@@ -42,15 +54,12 @@
 
                 <form>
 
-                    <label for="name">Name:</label><br>
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="name">
-                    <br><br>
-                    <label for="email">Email: </label><br>
+                    <label for="email">Email: </label>
                     <input type="email" id="email" name="email">
-                    <br><br>
-                    <label for="message">Message:</label> <br>
+                    <label for="message">Message:</label>
                     <textarea id="message" name="message"></textarea>
-                    <br><br>
                     <input type="submit"> 
                 </form>
 
@@ -63,7 +72,6 @@
         <footer>
             <!--linkedin, github, Built while learning web development.-->
             <a href="https://www.linkedin.com/in/julie-deng/" target="_blank">Linkedin</a>
-            <br> <br>
             <a href="https://github.com/julie-ddeng" target="_blank">GitHub</a>
             <p>Built while learning web development :)</p>
         </footer>

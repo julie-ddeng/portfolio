@@ -1,0 +1,33 @@
+body {
+	background-color: powderblue;
+
+
+
+}
+h1, h2 {
+	text-align: center;
+
+}
+
+label, input {
+	display: block;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 10px;
+
+}
+
+.container a {
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+
+}
+
+
+
