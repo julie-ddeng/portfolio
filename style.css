@@ -4,10 +4,6 @@ body {
 
 
 }
-h1, h2 {
-	text-align: center;
-
-}
 
 a:link, a:visited {
 	text-decoration: none;
@@ -28,7 +24,7 @@ label, input, button {
 	width: 25px;
 }
 
-.container {
+.nav-bar {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -38,7 +34,7 @@ label, input, button {
 
 }
 
-.container a {
+.nav-bar a {
 	background-color: white;
 	text-align: center;
 	padding: 15px;
@@ -61,4 +57,22 @@ label, input, button {
 
 #message {
 	width: 60%;
+}
+
+
+.projects-header, .project-card {
+	display: flex;
+	flex-direction: row;
+	gap: 9px;
+	
+	align-items: center;
+	justify-content: center;
+}
+
+.projects {
+	display: flex;
+	gap: 25px;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+
 }
