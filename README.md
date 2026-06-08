@@ -8,7 +8,7 @@ I am a Computer Science student at McGill University interested in software deve
 
 ## Tech Stack (so far)
 - HTML
-- CSS (in progress)
+- CSS
 - JavaScript (in progress)
 
 ## Goals
