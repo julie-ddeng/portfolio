@@ -24,6 +24,10 @@ label, input, button {
 	display: block;
 }
 
+.logo {
+	width: 25px;
+}
+
 .container {
 	display: flex;
 	flex-wrap: wrap;
